@@ -18,3 +18,15 @@ This repository is a test application used for ASP.NET Core internal test proces
 It is not intended to be a representative sample of how to use ASP.NET Core.
 
 Samples and docs for ASP.NET Core can be found here: <https://docs.asp.net>.
+
+## How to build
+
+*These steps are for building from command-line on a machine without any developer tools installed.*
+
+* Install NET Framework Developer Pack. Both [4.6.1](https://www.microsoft.com/en-in/download/details.aspx?id=49978) and
+ [4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53321) are required.
+ * Download MSBuild. [MSBuild 2015](https://www.microsoft.com/en-in/download/details.aspx?id=48159) worked fine for me.
+ 
+ ```
+ .\build.cmd
+ ```
